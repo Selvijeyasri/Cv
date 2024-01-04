@@ -1,0 +1,146 @@
+:root{
+    --blue:rgb(43, 58, 226)
+}
+.display{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.main{
+    /* border: 1px solid black; */
+    width: 55%;
+    padding: 42px;
+    display: flex;
+
+}
+.left-content{
+    width: 40%;
+}
+.right-content{
+    width: 60%;
+}
+.img-black{
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.img img{
+    /* height: 40px; */
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.img{
+    height: 200px;
+    /* border-radius:100px; */
+    width: 200px;
+
+  
+}
+.leftContentBlack{
+    background-color: black;
+    height: 1265px;
+}
+.white{
+    color:white
+}
+.ResumeName{
+    font-family: arial;
+    font-size: 22px;
+    margin-left: 16px;
+    padding: 18px 0px;
+}
+.button{
+    color: white;
+    /* width: 40%; */
+    background-color: var(--blue);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    /* line-height: 1px; */
+    letter-spacing: 1px;
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 18px;
+    padding-left: 10px;
+}
+#contactMargin{
+    margin-top: 5px;
+}
+.contactDetails{
+    margin-bottom: 10px;
+}
+.PersonalDetailsArial{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    margin-top: 18px;
+}
+.SkillsArial{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 18px;
+    padding-left: 10px;
+}
+.right-content{
+    margin-left: 12px;
+    width: 60%;
+    /* border: 1px solid black; */
+}
+.ObjectiveArial{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.EducationCollege{
+    font-family: Arial;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 20px;
+}
+.EducationSubField{
+    font-family: Arial;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+.EducationContent{
+    margin-bottom: 20px;
+}
+.ProjectTitle{
+    font-family: Arial;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: grey;
+}
+.ProjectSubField{
+    font-family: arial;
+    padding-left: 10px;
+    margin: 10px 0px;
+    /* line-height-step: 2px; */
+    line-height: 25px;
+}
+.ProjectsSub{
+    margin-bottom: 20px;
+}
+.AdditionalSub{
+    margin-top: 20px;
+}
+body{
+    background-color: grey;
+}
+.main{
+    background-color: white;
+}
